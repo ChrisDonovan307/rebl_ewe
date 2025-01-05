@@ -1,0 +1,22 @@
+---
+title: "Extreme Weather Events: Perception, Pro-Environmental Behavior, and the Tools to Measure Them"
+author: "Chris Donovan, Dr. Trisha Shrum\n"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: 
+    github_document:
+        toc: true
+        toc_depth: 1
+        html_preview: true
+---
+
+# Introduction
+
+Herein lies the data analysis for the paper "Extreme Weather Events: Perception, Pro-Environmental Behavior, and the Tools to Measure Them". Raw files are initially cleaned and excluded in the [REBL repository](https://github.com/tshrum/rebl). Here, we take those files and run some extra cleaning, exploratory factor analysis, data imputation, structural equation modeling, and report outputs for use in the paper.
+
+# License
+
+This repository available for use under the GPL-3.0 license.
+
+# Project Navigation
+
+This repo has a renv lockfile. To restore the project using the same R and package versions, run `renv::restore()`. The "housekeeping" script should be run before any other. After that, scripts should be able to run in any order. 
